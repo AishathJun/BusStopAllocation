@@ -62,5 +62,5 @@ This project is intended for:
 - Researchers exploring spatial optimization
 - Decision-support applications in public transport planning
 
-
+<br/>
  It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers and fitness functions.
