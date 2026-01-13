@@ -66,7 +66,7 @@ This project is intended for:
 
 <br/>
 It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers, parameters and fitness functions.
-<br/><br/>
+<br/>
 
 > ⚠️ **Data Access Notice**  
 > Please contact the **[GIS Team](https://gis.hdc.mv/) of Housing Development Corporation, Maldives** if you would like access to the full dataset used in this project.
