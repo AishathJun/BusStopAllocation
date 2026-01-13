@@ -65,4 +65,9 @@ This project is intended for:
 - Decision-support applications in public transport planning
 
 <br/>
- It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers, parameters and fitness functions.
+It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers, parameters and fitness functions.
+<br/><br/>
+
+> ⚠️ **Data Access Notice**  
+> Please contact the **[GIS Team](https://gis.hdc.mv/) of Housing Development Corporation, Maldives** if you would like access to the full dataset used in this project.
+
