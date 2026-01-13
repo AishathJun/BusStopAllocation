@@ -54,7 +54,7 @@ The project follows a GIS-first optimization workflow:
 This project requires ArcGIS Pro to run successfully.
 - The preprocessing and spatial evaluation stages depend on ArcGIS Pro geoprocessing tools.
 - Some workflows may require licensed ArcGIS extensions (e.g. Network Analyst or Spatial Analyst, depending on the dataset and configuration).
-- The repository does not include geodatabases or proprietary datasets; instead, scripts are provided to regenerate outputs within a licensed ArcGIS Pro environment.
+- The repository includes sample shapefiles for the user to test and see how the data is prepared for preprocessing and optimization model.
 
 
 ## 🎯 Intended Use
@@ -65,4 +65,4 @@ This project is intended for:
 - Decision-support applications in public transport planning
 
 <br/>
- It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers and fitness functions.
+ It is designed to be adaptable to different cities, datasets, and planning constraints by modifying input layers, parameters and fitness functions.
