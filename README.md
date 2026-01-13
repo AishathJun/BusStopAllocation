@@ -6,6 +6,9 @@ BusStopAllocation is a spatial decision-support project that identifies and allo
 
 The workflow is developed entirely within the **ArcGIS Pro** ecosystem, leveraging ArcPy for geoprocessing, spatial analysis, and feature class management, while using Python-based genetic algorithm logic to iteratively evolve candidate bus stop solutions.
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
+
 
 ## 🔍 Project Overview
 
@@ -55,6 +58,30 @@ This project requires ArcGIS Pro to run successfully.
 - The preprocessing and spatial evaluation stages depend on ArcGIS Pro geoprocessing tools.
 - Some workflows may require licensed ArcGIS extensions (e.g. Network Analyst or Spatial Analyst, depending on the dataset and configuration).
 - The repository includes sample shapefiles for the user to test and see how the data is prepared for preprocessing and optimization model.
+
+
+## 🧬 Installation of DEAP Package into ArcGIS Pro
+
+   - Before installing external packages, clone your working environment and give it a name (Project > Package Manager > Active Environment)
+   - Activate the cloned-environment
+   - Next, open **Python Command Prompt**
+   - Ensure that you are working in the cloned environment
+   - If its not activated, you can activate it manually within the  **Python Command Prompt**. The location of your cloned-environment can be found at Project > Package Manager > Active Environment dropdown.
+     
+     ```bash
+     cd ArcGISProject\YourProject\YourProject
+      ```
+      
+     ```bash
+     activate cloned-environment
+      ```
+   - One activated, you can now install the DEAP Package
+
+     ```bash
+     conda config --add channels conda-forge
+     conda config --set channel_priority strict
+     conda install deap
+      ```
 
 
 ## 🎯 Intended Use
