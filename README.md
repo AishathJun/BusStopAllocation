@@ -1,3 +1,6 @@
+
+![Bus Stop Allocation](https://github.com/AishathJun/BusStopAllocation/blob/main/output%20images/Bus%20Stop.gif)
+
 # Bus Stop Location Optimization Using Genetic Algorithms in ArcGIS Pro
 
 BusStopAllocation is a spatial decision-support project that identifies and allocates optimal bus stop locations using a Genetic Algorithm (GA) integrated directly with ArcGIS Pro. The project combines evolutionary optimization techniques with GIS-based spatial analysis to support evidence-based public transport planning.
