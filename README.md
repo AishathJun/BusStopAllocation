@@ -1,4 +1,3 @@
-
 ![Bus Stop Allocation](https://github.com/AishathJun/BusStopAllocation/blob/main/output%20images/Bus%20Stop.gif)
 
 # Bus Stop Location Optimization Using Genetic Algorithms in ArcGIS Pro
