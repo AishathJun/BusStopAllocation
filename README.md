@@ -10,7 +10,7 @@ The workflow is developed entirely within the **ArcGIS Pro** ecosystem, leveragi
 [![License](https://img.shields.io/badge/License-MIT-green)]()
 
 
-## 🔍 Project Overview
+## Project Overview
 
 Urban bus stop placement involves balancing multiple, often conflicting objectives such as:
 - Accessibility for surrounding populations
@@ -22,7 +22,7 @@ Urban bus stop placement involves balancing multiple, often conflicting objectiv
 This project addresses these challenges by formulating bus stop placement as a multi-objective optimization problem, solved using a Genetic Algorithm. Candidate bus stop locations are generated from road centerlines and evaluated iteratively until near-optimal spatial configurations are produced.
 
 
-## 🛠 How the Project Was Built
+## How the Project Was Built
 
 The project follows a GIS-first optimization workflow:
 
@@ -53,14 +53,14 @@ The project follows a GIS-first optimization workflow:
    - Results can be further analyzed, mapped, or published using ArcGIS Pro tools and dashboards.
 
 
-## 🧩 ArcGIS Pro Dependency & Licensing
+## ArcGIS Pro Dependency & Licensing
 This project requires ArcGIS Pro to run successfully.
 - The preprocessing and spatial evaluation stages depend on ArcGIS Pro geoprocessing tools.
 - Some workflows may require licensed ArcGIS extensions (e.g. Network Analyst or Spatial Analyst, depending on the dataset and configuration).
 - The repository includes sample shapefiles for the user to test and see how the data is prepared for preprocessing and optimization model.
 
 
-## 🧬 Installation of DEAP Package into ArcGIS Pro
+## Installation of DEAP Package into ArcGIS Pro
 
    - Before installing external packages, clone your working environment and give it a name (Project > Package Manager > Active Environment)
    - Activate the cloned-environment
@@ -84,7 +84,7 @@ This project requires ArcGIS Pro to run successfully.
       ```
 
 
-## 🎯 Intended Use
+## Intended Use
 This project is intended for:
 - Transport and urban planners
 - GIS analysts
